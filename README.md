@@ -11,7 +11,7 @@ The database I am using and analyzing is called "2022 Russia Ukraine War" on Kag
 The dataset can also be found in the zip file, "archive.zip".
 
 #### Example Questions
-1) s
-2) s
-3) s
-4) s
+1) Is there a correlation between POW's taken and losses of aircrafts/helicopters?
+2) Does the amount of personal loss sustained vary with the season?
+3) Which day in the war so far has had the greatest loss in Russian lives?
+4) 
