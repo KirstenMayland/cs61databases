@@ -1,6 +1,5 @@
 ## Kirsten Mayland
-## CS 61 Dartmouth - Database Systems
-## Prof. Goldstein
+## CS 61 Dartmouth - Database Systems, Prof. Goldstein
 final project for databases class
 
 ### Process
