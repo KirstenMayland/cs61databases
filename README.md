@@ -24,33 +24,33 @@ date
 
 t2: equipment  
 day (FK)  
-aircraft (int)
-helicopter (int)
-tank (int)
-APC (int)
-field artillery (int)
-MRL (int)
-drone (int)
-naval ship (int)
-anti-aircraft warfare (int)
-special equipment (int)
-vehicles and fuel tanks (int)
-- > military auto (int) + fuel tank (int)
-cruise missiles (int)
+aircraft (int)  
+helicopter (int)  
+tank (int)  
+APC (int)  
+field artillery (int)  
+MRL (int)  
+drone (int)  
+naval ship (int)  
+anti-aircraft warfare (int)  
+special equipment (int)  
+vehicles and fuel tanks (int)  
+- > ~~military auto (int) + fuel tank (int)~~  
+cruise missiles (int)  
 
-t4: v_and_ft_analysis
-day (PK/FK)
-vehicles and fuel tanks (int)
-greatest losses direction (char(100))
+t4: v_and_ft_analysis  
+day (PK/FK)  
+vehicles and fuel tanks (int)  
+greatest losses direction (char(100))  
 
-t3: people
-day (PK/FK)
-personnel (int)
-personnel_about (char(10))
-POW (int)
+t3: people  
+day (PK/FK)  
+personnel (int)  
+personnel_about (char(10))  
+POW (int)  
 
 excluded:
-mobile SRBM system
+~~mobile SRBM system~~
 
 #### Notes:
 - data is cumulative, so need to take the difference to see day to day changes
