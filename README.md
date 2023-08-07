@@ -34,13 +34,12 @@ drone (int)
 naval ship (int)  
 anti-aircraft warfare (int)  
 special equipment (int)  
+cruise missiles (int)  
 vehicles and fuel tanks (int)  
 - > ~~military auto (int) + fuel tank (int)~~  
-cruise missiles (int)  
 
 t4: v_and_ft_analysis  
-day (PK/FK)  
-vehicles and fuel tanks (int)  
+day (PK/FK)   
 greatest losses direction (char(100))  
 
 t3: people  
@@ -66,6 +65,7 @@ excluded:
 1) Create schema
 2) Import 3 csv tables
 3) alter russia_losses_equipment table to accommodate corrections from the corrections table
-  > i) delete corrections table after
+  >> i) delete corrections table after
 4) add together 'military auto' and 'fuel tank' columns, add that data to the blank beginning spots in 'vehicles and fuel tanks' (should match up)
-  > i) delete 'military auto' and 'fuel tank' columns, so there should just be 1 column containing all the data of the previous 3
+  >> i) delete 'military auto' and 'fuel tank' columns, so there should just be 1 column containing all the data of the previous 3
+5) create 'main' and 'v_and_ft_analysis' tables and move data there
