@@ -18,12 +18,12 @@ The dataset can also be found in the zip file, "archive.zip".
 
 ## Database Design
 #### Tables:
-t1: main
-day (PK)
-date
+t1: main  
+day (PK)  
+date  
 
-t2: equipment
-day (FK)
+t2: equipment  
+day (FK)  
 aircraft (int)
 helicopter (int)
 tank (int)
