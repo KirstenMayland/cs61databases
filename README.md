@@ -36,7 +36,7 @@ anti-aircraft warfare (int)
 special equipment (int)  
 cruise missiles (int)  
 vehicles and fuel tanks (int)  
-- > ~~military auto (int) + fuel tank (int)~~  
+ - ~~military auto (int) + fuel tank (int)~~  
 
 t4: v_and_ft_analysis  
 day (PK/FK)   
