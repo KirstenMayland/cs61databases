@@ -51,8 +51,11 @@ POW (int)
 excluded:
 ~~mobile SRBM system~~
 
+Photo of ERD:
 <img width="356" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/228481bf-d34e-4135-abc5-35927b75fedf">
 
+Link to download ERD:
+[Russia_losses_model]("C:\Kirsten's Stuff\Dartmouth\CS61\Russia_losses_model.mwb")
 
 #### Notes:
 - data is cumulative, so need to take the difference to see day to day changes
