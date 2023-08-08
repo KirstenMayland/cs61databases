@@ -54,8 +54,8 @@ excluded:
 Photo of ERD:
 <img width="356" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/228481bf-d34e-4135-abc5-35927b75fedf">
 
-Link to download ERD:
-[Russia_losses_model]("C:\Kirsten's Stuff\Dartmouth\CS61\Russia_losses_model.mwb")
+Download ERD:
+File "Russia_losses_model.mdw" in repo
 
 #### Notes:
 - data is cumulative, so need to take the difference to see day to day changes
