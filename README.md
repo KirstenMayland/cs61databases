@@ -18,12 +18,12 @@ The dataset can also be found in the zip file, "archive.zip".
 
 ## Database Design
 #### Tables:
-t1: main  
+t1: losses  
 day (PK)  
 date  
 
 t2: equipment  
-day (FK)  
+day (PK/FK)  
 aircraft (int)  
 helicopter (int)  
 tank (int)  
@@ -40,7 +40,7 @@ vehicles and fuel tanks (int)
 
 t4: v_and_ft_analysis  
 day (PK/FK)   
-greatest losses direction (char(100))  
+greatest losses loc (char(100))  
 
 t3: people  
 day (PK/FK)  
@@ -65,7 +65,9 @@ excluded:
 1) Create schema
 2) Import 3 csv tables
 3) alter russia_losses_equipment table to accommodate corrections from the corrections table
-  >> i) delete corrections table after
-4) add together 'military auto' and 'fuel tank' columns, add that data to the blank beginning spots in 'vehicles and fuel tanks' (should match up)
-  >> i) delete 'military auto' and 'fuel tank' columns, so there should just be 1 column containing all the data of the previous 3
-5) create 'main' and 'v_and_ft_analysis' tables and move data there
+4) delete corrections table after
+5) add together 'military auto' and 'fuel tank' columns, merge that data into the blank beginning spots in 'vehicles and fuel tanks' (should match up)
+6) delete 'military auto' and 'fuel tank' columns, so there should just be 1 column ('vehicles and fuel tanks') containing all the data of the previous 3  
+5) create 'losses' and 'v_and_ft_analysis' tables and move data there
+6) change 'russia_losses_equipment' to 'equipment' and russia_losses_personnel to 'personnel'
+7) done!/proceed to analysis
