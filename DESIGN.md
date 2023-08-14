@@ -1,10 +1,10 @@
 ## Database Design
 #### Tables:
-t1: rus_war_timeline  
+t1: rus_war_timeline    
 day (PK)  
 date  
 
-t2: equip_loss 
+t2: equip_loss   
 day (PK/FK)  
 aircraft (int)  
 helicopter (int)  
@@ -20,11 +20,11 @@ cruise missiles (int)
 vehicles and fuel tanks (int)  
  - ~~military auto (int) + fuel tank (int)~~  
 
-t4: v_and_ft_analysis  
+t4: v_and_ft_analysis    
 day (PK/FK)   
 greatest losses loc (char(100))  
 
-t3: people_loss
+t3: people_loss  
 day (PK/FK)  
 personnel (int)  
 personnel_about (char(10))  
