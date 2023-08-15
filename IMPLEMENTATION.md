@@ -9,9 +9,10 @@ Created the schema 'russia_losses' in my local MySQL instance and then imported 
 ### MySQL preparation of data
 1) Updated 'equip_loss' table to accommodate corrections from the 'equip_loss_correction' table
 2) Deleted 'equip_loss_correction' table after
-3) Deleted 'mobile SRBM system' attribute from 'equip_loss' table (not enough data to be useful (updated 3 times over 522 days))
+3) Deleted 'mobile SRBM system' attribute from 'equip_loss' table (not enough data to be useful (updated twice over 522 days))
 4) Added together 'military auto' and 'fuel tank' columns in 'equip_loss', merged that data into the blank beginning spots in 'vehicles and fuel tanks' (should match up)
 5) Deleted the now redundant 'military auto' and 'fuel tank' columns in 'equip_loss', so there should just be 1 column ('vehicles and fuel tanks') containing all the data of the previous 3  
 6) create 'losses' and 'v_and_ft_analysis' tables and move data there
 7) change 'russia_losses_equipment' to 'equipment' and russia_losses_personnel to 'personnel'
-8) done!/proceed to analysis
+8) Add primary and foreign keys
+9) done!/proceed to analysis
