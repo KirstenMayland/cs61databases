@@ -17,8 +17,8 @@ Created the schema 'russia_losses' in my local MySQL instance and then imported 
 5) Deleted the now redundant 'military auto' and 'fuel tank' columns in 'equip_loss', so there should just be 1 column ('vehicles and fuel tanks') containing all the data of the previous 3
 6) Renamed 'personnel*' attribute in 'personnel loss' to 'personnel_about'
 
-###### Split Up Tables
-7) Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables and copied corresponding data there
+###### Decomposing Tables
+7) Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables and copied corresponding data there (detailed in [DESIGN.md](DESIGN.md))
 
 ###### Removed Redunancies and Normalized Data
 8) Deleted rows in 'vehicles_and_ft_analysis' where 'greatest losses direction' IS NULL bc redundant
