@@ -15,18 +15,19 @@ Created the schema 'russia_losses' in my local MySQL instance and then imported 
 3) Deleted 'mobile SRBM system' attribute from 'equip_loss' table (not enough data to be useful (updated twice over 522 days))
 4) Added together 'military auto' and 'fuel tank' columns in 'equip_loss', merged that data into the blank beginning spots in 'vehicles and fuel tanks' (should match up)
 5) Deleted the now redundant 'military auto' and 'fuel tank' columns in 'equip_loss', so there should just be 1 column ('vehicles and fuel tanks') containing all the data of the previous 3
+6) Renamed 'personnel*' attribute in 'personnel loss' to 'personnel_about'
 
 ###### Split Up Tables
-6) Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables and copied corresponding data there
+7) Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables and copied corresponding data there
 
 ###### Removed Redunancies and Normalized Data
-7) Deleted rows in 'vehicles_and_ft_analysis' where 'greatest losses direction' IS NULL bc redundant
-8) Deleted 'date' attribute from 'equip_loss' and 'personnel_loss' bc redundant
-9) Deleted 'greatest losses direction' attribute from 'equip_loss' bc redundant
+8) Deleted rows in 'vehicles_and_ft_analysis' where 'greatest losses direction' IS NULL bc redundant
+9) Deleted 'date' attribute from 'equip_loss' and 'personnel_loss' bc redundant
+10) Deleted 'greatest losses direction' attribute from 'equip_loss' bc redundant
 
 ###### Connected Tables
-10) Add primary and foreign keys to all tables, connecting them
-11) done!/proceed to analysis
+11) Add primary and foreign keys to all tables, connecting them
+12) done!/proceed to analysis
 
 ### End product
 
@@ -78,6 +79,10 @@ ALTER TABLE equip_loss
 DROP COLUMN `military auto`;
 ALTER TABLE equip_loss
 DROP COLUMN `fuel tank`;
+
+-- Renamed 'personnel*' attribute in 'personnel loss' to 'personnel_about'
+ALTER TABLE personnel_loss
+RENAME COLUMN `personnel*` TO personnel_about;
 
 -- Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables
 -- and copied corresponding data there
