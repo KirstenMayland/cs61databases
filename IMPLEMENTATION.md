@@ -27,7 +27,9 @@ Created the schema 'russia_losses' in my local MySQL instance and then imported 
 
 ###### Connected Tables
 11) Add primary and foreign keys to all tables, connecting them
-12) done!/proceed to analysis
+12) done!/proceed to analysis  
+
+In summary, most of the work was focused up applying the corrections to the equipment losses table and normalizing the data and removing the resulting redundancies.
 
 ### End product
 Photo of ERD, reverse engineered from database:   
