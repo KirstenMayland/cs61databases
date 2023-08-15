@@ -43,6 +43,10 @@ DROP COLUMN `military auto`;
 ALTER TABLE equip_loss
 DROP COLUMN `fuel tank`;
 
+-- Renamed 'personnel*' attribute in 'personnel loss' to 'personnel_about'
+ALTER TABLE personnel_loss
+RENAME COLUMN `personnel*` TO personnel_about;
+
 -- Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables
 -- and copied corresponding data there
 CREATE TABLE rus_war_timeline
