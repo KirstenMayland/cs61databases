@@ -1,7 +1,7 @@
 ## Implementation of Database
 
 ### Preprocessing of Data
-Changed missing data in the 3 .cvs files to 'NULL' for the text attributes and 0 for the int attributes. NULL and 0 then both indicate that the data at that point is untracked.
+Changed missing data in the 3 .cvs files to 'NULL' for the text attributes and 0 for the int attributes. NULL and 0 then both indicate that the data at that point is untracked. I used Microsoft Excel for the prepocessing.
 
 ### Import data
 Created the schema 'russia_losses' in my local MySQL instance and then imported the 3 .csv files into the schema using the Table Data Import Wizard feature.
