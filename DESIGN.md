@@ -36,8 +36,7 @@ excluded:
 Photo of ERD:  
 <img width="356" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/228481bf-d34e-4135-abc5-35927b75fedf">
 
-Download ERD:  
-Click on file "Russia_losses_model.mwb" in repo
+Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 
 #### Notes:
 - data is cumulative, so need to take the difference to see day to day changes
@@ -49,7 +48,8 @@ Click on file "Russia_losses_model.mwb" in repo
 - 'Special Equipment' appears to have been recently untracked but still has data for majority (96%) of days
 - 'mobile SRBM system': minimal data, only 4 recorded
 
-#### Build Plan:
+#### Proposed Build Plan:
+Actual implementation detailed in [IMPLEMENTATION.md](IMPLEMENTATION.md).
 1) Create schema
 2) Import 3 csv tables
 3) alter russia_losses_equipment table to accommodate corrections from the corrections table
