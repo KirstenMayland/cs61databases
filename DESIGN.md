@@ -24,7 +24,7 @@ t4: v_and_ft_analysis
 day (PK/FK)   
 greatest losses loc (char(100))  
 
-t3: people_loss  
+t3: personel_loss  
 day (PK/FK)  
 personnel (int)  
 personnel_about (char(10))  
