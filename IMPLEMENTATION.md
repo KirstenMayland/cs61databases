@@ -1,29 +1,29 @@
 ## Implementation of Database
 
 ### Preprocessing of Data
-Changed missing data in the 3 .cvs files to 'NULL' for the text attributes and 0 for the int attributes. NULL and 0 then both indicate that the data at that point is untracked. I used Microsoft Excel for the prepocessing.
+Changed missing data in the 3 .cvs files to `NULL` for the text attributes and `0` for the int attributes. `NULL` and `0` then both indicate that the data at that point is untracked. I used Microsoft Excel for the prepocessing.
 
 ### Import data
-Created the schema 'russia_losses' in my local MySQL instance and then imported the 3 .csv files into the schema using the Table Data Import Wizard feature.
+Created the schema `russia_losses` in my local MySQL instance and then imported the 3 .csv files into the schema using the Table Data Import Wizard feature.
 
 ### MySQL Preparation of data
 ###### Corrected data according to corrections .csv file   
-1) Updated 'equip_loss' table to add or subtract from attributes past a specific date based on info from the 'equip_loss_correction' table
-2) Deleted 'equip_loss_correction' table after corrections were applied
+1) Updated `equip_loss` table to add or subtract from attributes past a specific date based on info from the `equip_loss_correction` table
+2) Deleted `equip_loss_correction` table after corrections were applied
 
 ###### Cleaned Up Data
-3) Deleted 'mobile SRBM system' attribute from 'equip_loss' table (not enough data to be useful (updated twice over 522 days))
-4) Added together 'military auto' and 'fuel tank' columns in 'equip_loss', merged that data into the blank beginning spots in 'vehicles and fuel tanks' (should match up)
-5) Deleted the now redundant 'military auto' and 'fuel tank' columns in 'equip_loss', so there should just be 1 column ('vehicles and fuel tanks') containing all the data of the previous 3
-6) Renamed 'personnel*' attribute in 'personnel loss' to 'personnel_about'
+3) Deleted `mobile SRBM system` attribute from `equip_loss` table (not enough data to be useful (updated twice over 522 days))
+4) Added together `military auto` and `fuel tank` columns in `equip_loss`, merged that data into the blank beginning spots in `vehicles and fuel tanks` (should match up)
+5) Deleted the now redundant `military auto` and `fuel tank` columns in `equip_loss`, so there should just be 1 column (`vehicles and fuel tanks`) containing all the data of the previous 3
+6) Renamed `personnel*` attribute in `personnel loss` to `personnel_about` for clarification purposes
 
 ###### Decomposing Tables
-7) Created 'rus_war_timeline' and 'vehicles_and_ft_analysis' tables and copied corresponding data there (detailed in [DESIGN.md](DESIGN.md))
+7) Created `rus_war_timeline` and `vehicles_and_ft_analysis` tables and copied corresponding data there (detailed in [DESIGN.md](DESIGN.md))
 
 ###### Removed Redunancies and Normalized Data
-8) Deleted rows in 'vehicles_and_ft_analysis' where 'greatest losses direction' IS NULL bc redundant
-9) Deleted 'date' attribute from 'equip_loss' and 'personnel_loss' bc redundant
-10) Deleted 'greatest losses direction' attribute from 'equip_loss' bc redundant
+8) Deleted rows in `vehicles_and_ft_analysis` where `greatest losses direction` IS NULL bc redundant
+9) Deleted `date` attribute from `equip_loss` and `personnel_loss` bc redundant
+10) Deleted `greatest losses direction` attribute from `equip_loss` bc redundant
 
 ###### Connected Tables
 11) Add primary and foreign keys to all tables, connecting them
