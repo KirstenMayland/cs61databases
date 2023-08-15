@@ -30,7 +30,20 @@ Created the schema 'russia_losses' in my local MySQL instance and then imported 
 12) done!/proceed to analysis
 
 ### End product
+Photo of ERD, reverse engineered from database:   
+<img width="529" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/93ebb752-a9fe-4a71-b680-aa3fd96755b0">  
 
+rus_war_timeline table:  
+<img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/e9054c2a-a529-469c-88b5-a96b5db602b2">  
+
+equip_loss table:   
+<img width="736" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/f923a836-c793-451b-aa00-1707648ed19e">  
+
+personnel_loss table:
+<img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/06a59d48-3d84-4e97-abf2-fae24faf2f56">
+
+vehicles_and_ft_analysis table:
+<img width="295" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5d17eb9e-ecad-431e-8d1e-dedffe1411b5">
 
 ### SQL code
 The code used to implement the above database is in [rus_database_setup.sql](rus_database_setup.sql) or dilineated down below.
