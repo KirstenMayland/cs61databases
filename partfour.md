@@ -19,3 +19,8 @@ https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-di
 
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/cf918039-3a13-499a-bc1d-d3542a8719d7)
 ^ progress finally, 5 hrs in
+
+![Screenshot (40)](https://github.com/KirstenMayland/cs61databases/assets/102620915/c26d16b8-7008-4d66-b7c5-3153bb62a416)
+
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/c9b7e151-06f8-4029-9d51-7561c77329ef)
+^ got it to work for the local host (yay!) so I thought I could just convert the idea over to my website. No, did not work
