@@ -1,4 +1,4 @@
-Original plan was to create a front-end on my already existing website (kirstenmayland.me); however, after nearly 4 hours of attempting to connect my database to my website and encountering countless errors (a few detailed below), I gave up and decided to just host it on the local host
+Original plan was to create a front-end on my already existing website (kirstenmayland.me); however, after nearly 4 hours of attempting to connect my database to my website and encountering countless errors (a few detailed below), I gave up and decided to just host it on the local host.
 
 2 hr general researching and fiddling around with html and php
 
@@ -8,3 +8,7 @@ Original plan was to create a front-end on my already existing website (kirstenm
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/924eea3f-4e8a-4a50-b5e6-8384a9b8ad6d)
 
 ^ another hour of errors later, I gave up
+
+FINALLY 4.5 hrs in, got XAMPP to work
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d1769f5-6866-4f23-a9a8-b72b5b299a43)
+
