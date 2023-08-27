@@ -16,3 +16,6 @@ FINALLY 4.5 hrs in, got XAMPP to work
 https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-display-on-html-table-using-php/#
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04](https://radu.link/fix-cannot-validate-php-vs-code/)https://radu.link/fix-cannot-validate-php-vs-code/
+
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/cf918039-3a13-499a-bc1d-d3542a8719d7)
+^ progress finally, 5 hrs in
