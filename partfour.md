@@ -29,4 +29,4 @@ https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-di
 
 Now that I have gotten the local host into a place where I can access my database I can actually plan what I'm trying to do:  
 Thoughts-  
-1) form to query database based on day + what's being lost; returns two values: the cumulative losses at that date and the losses in that specific day
+1) form to query database based on day + what's being lost; returns two values: the cumulative losses at that date and the losses in that specific day (https://www.w3schools.com/php/php_mysql_select.asp)
