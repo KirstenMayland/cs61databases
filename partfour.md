@@ -25,3 +25,8 @@ https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-di
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d7dfb3b-693a-41bf-b7af-42956ac1783e)
 
 ^ got it to work for the local host (yay!) so I thought I could just convert the idea over to my website. No, did not work, it just downloaded it :/
+
+
+Now that I have gotten the local host into a place where I can access my database I can actually plan what I'm trying to do:  
+Thoughts-  
+1) form to query database based on day + what's being lost; returns two values: the cumulative losses at that date and the losses in that specific day
