@@ -1,3 +1,8 @@
+## Front End
+
+#### Final Result
+
+#### Process
 Original plan was to create a front-end on my already existing website (kirstenmayland.me); however, after nearly 4 hours of attempting to connect my database to my website and encountering countless errors (a few detailed below), I gave up and decided to just host it on the local host.
 
 2 hr general researching and fiddling around with html and php
