@@ -44,7 +44,13 @@ Thoughts-
 At this point, things are starting to pick up speed because I have finally gotten a handle on php, but there are still a couple more things I want to add in terms of formatting and performance before I move on.  
 Things on the list:  
 1) make it so that you can query any attribute, not just equip_loss attributes
-2) try and get it to load the page automatically reset, or maybe defaulting to most recent day?
-3) Add a -day 1, all 0's- to the equip_loss table so ppl can query day 2 daily loss
-4) create a list of possible query options, maybe a click instead of type?
-5) better format the output
+2) better error handling if a non valid attribute or day is entered
+3) try and get it to load the page automatically reset, or maybe defaulting to most recent day?
+4) Add a -day 1, all 0's- to the equip_loss table so ppl can query day 2 daily loss
+5) create a list of possible query options, maybe a click instead of type?
+6) change to prepared statements to prevent injection
+7) better format the output
+8) add option to query by date instead of day
+9) add over + about option if personnel is queried
+
+2 hrs doing #1, 2, 3
