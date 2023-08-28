@@ -1,5 +1,9 @@
 ## Database Design
-
+- [README.md](README.md)
+- [DESIGN.md](DESIGN.md)
+- [IMPLEMENTATION.md](IMPLEMENTATION.md)
+- [ANALYSIS.md](ANALYSIS.md)
+- [FRONTEND.md](FRONTEND.md)
 #### ERD:  
 <img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7bf49ec0-fafa-41d2-b706-106d55f6c3b5">
 
