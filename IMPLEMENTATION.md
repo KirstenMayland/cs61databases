@@ -1,5 +1,9 @@
 ## Implementation of Database
-
+- [README.md](README.md)
+- [DESIGN.md](DESIGN.md)
+- [IMPLEMENTATION.md](IMPLEMENTATION.md)
+- [ANALYSIS.md](ANALYSIS.md)
+- [FRONTEND.md](FRONTEND.md)
 ### Preprocessing of Data
 Changed missing data in the 3 .cvs files to `NULL` for the text attributes and `0` for the int attributes. `NULL` and `0` then both indicate that the data at that point is untracked. I used Microsoft Excel for the prepocessing.
 
