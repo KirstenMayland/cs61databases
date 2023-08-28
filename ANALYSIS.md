@@ -6,10 +6,10 @@
 3) Which day in the war so far has resulted in the greatest loss in Russian lives?
 4) Did the type of equipment taking the most losses change from the first month to this last month?
 
-The question I seek to answer in Milestone 3 is:  
-###### Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
-
 ### SQL Query
+The question I seek to answer in Milestone 3 is:  
+##### Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
+
 ```sql
 SELECT n.month, AVG(n.per_day_loss) AS avg_pd_loss_during_months
 FROM (SELECT pl.day,
