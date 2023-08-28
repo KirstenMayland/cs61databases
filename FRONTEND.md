@@ -4,54 +4,67 @@
 - [IMPLEMENTATION.md](IMPLEMENTATION.md)
 - [ANALYSIS.md](ANALYSIS.md)
 - [FRONTEND.md](FRONTEND.md)
-#### Final Result
+### Goal
+To create a working frontend to the `russia_losses` database that allows you to query it from the web, or at least the localhost, and to learn more about servers and frontend-backend interaction in the process
+### Final Result
 
-#### Process
-Original plan was to create a front-end on my already existing website (kirstenmayland.me); however, after nearly 4 hours of attempting to connect my database to my website and encountering countless errors (a few detailed below), I gave up and decided to just host it on the local host.
+### Resources Used
+-  [GeeksForGeeks: Connecting Localserver Database and HTML/PHP](https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-display-on-html-table-using-php/#)
+- [Radu: Fix, 'Cannot Validate PHP VSCode'](https://radu.link/fix-cannot-validate-php-vs-code/)
+- [W3Schools: PHP MySQL select](https://www.w3schools.com/php/php_mysql_select.asp)
 
-2 hr general researching and fiddling around with html and php
+### Timeline of Process
+#### Hour 0
+General researching into how to establish a frontend
 
-+ 30-45 min on XAMPP (also threw an error)
-
-![Screenshot (34)](https://github.com/KirstenMayland/cs61databases/assets/102620915/ed4e3faa-262b-42b8-9f0d-4e75e10c67cf)
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/924eea3f-4e8a-4a50-b5e6-8384a9b8ad6d)
-
-^ another hour of errors later, I gave up
-
-
-FINALLY 4.5 hrs in, got XAMPP to work
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d1769f5-6866-4f23-a9a8-b72b5b299a43)
-
-https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-display-on-html-table-using-php/#
-
-[https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04](https://radu.link/fix-cannot-validate-php-vs-code/)https://radu.link/fix-cannot-validate-php-vs-code/
-
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/cf918039-3a13-499a-bc1d-d3542a8719d7)
-^ progress finally, 5 hrs in
-
-
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/b1d2a7f9-6caf-4a34-a430-507fb9504f9e)
+#### Hour 0.75
+The original plan was to create a frontend on my already existing website (kirstenmayland.me); however, after nearly 3 hours of attempting to connect my database to my website and encountering countless errors, I gave up and decided to just host it on the localhost. I later learned that the cause of my errors was because my website is hosted by Github Pages and thus does not support PHP, which I was attempting to work with.    
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d7dfb3b-693a-41bf-b7af-42956ac1783e)
 
-^ got it to work for the local host (yay!) so I thought I could just convert the idea over to my website. No, did not work, it just downloaded it :/
+#### Hour 3.5
+After giving up on hosting the frontend on my website, I turned my efforts towards hosting it on the localhost instead, using XAMPP. Errors continued to abound  
+&nbsp;\
+One Example Error:  
+&nbsp;\
+![Screenshot (34)](https://github.com/KirstenMayland/cs61databases/assets/102620915/ed4e3faa-262b-42b8-9f0d-4e75e10c67cf)  
+&nbsp;\
+Second Example Error:  
+&nbsp;\
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/924eea3f-4e8a-4a50-b5e6-8384a9b8ad6d)
 
+#### Hour 4.5
+Finally got XAMPP webserver set up and running  
+&nbsp;\
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d1769f5-6866-4f23-a9a8-b72b5b299a43)
 
+#### Hour 5
+Got the PHP to work, or at least connect, to the localhost  
+&nbsp;\
+![Screenshot (40)](https://github.com/KirstenMayland/cs61databases/assets/102620915/b0bf0c60-2b09-4e43-9f7d-7fa9b5409001)  
+&nbsp;\
 Now that I have gotten the local host into a place where I can access my database I can actually plan what I'm trying to do:  
+
 Thoughts-  
-1) form to query database based on day + what's being lost; returns two values: the cumulative losses at that date and the losses in that specific day (https://www.w3schools.com/php/php_mysql_select.asp)
+1) form to query database based on day + what's being lost; returns two values: the cumulative losses at that date and the losses in that specific day 
 
-5.5 hrs in, first successful query, that took too long, I know we did some of this as a classlab, but understanding XAMPP and VSCode was a much bigger hurdle than anticipated
+#### Hour 5.5
+First successful query! That took much longer than anticipated, I know we did this rough idea as a classlab, but understanding how XAMPP and VSCode work together was a much bigger hurdle than anticipated.  
+&nbsp;\
+![Screenshot (45)](https://github.com/KirstenMayland/cs61databases/assets/102620915/70665f89-a221-49e1-bccb-ed42a2e11094)
 
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/99faf8e8-107f-471c-a20c-ea6df456b4b8)
-
-6 hrs in, got cumulative loss query to work:
+#### Hour 6
+Got cumulative loss query to work:  
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/9177a0a6-ca07-4d98-9bd3-1a52ae74a7bc)
 
-6.5 hrs in, got daily loss query up and running:
+#### Hour 6.5
+Got daily loss query up and running:  
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/dc9a314d-0101-4810-a8e1-51cdb131f799)
 
 At this point, things are starting to pick up speed because I have finally gotten a handle on php, but there are still a couple more things I want to add in terms of formatting and performance before I move on.  
-Things on the list:  
+Goals on the list:  
 1) make it so that you can query any attribute, not just equip_loss attributes
 2) better error handling if a non valid attribute or day is entered
 3) try and get it to load the page automatically reset, or maybe defaulting to most recent day?
@@ -65,16 +78,31 @@ Things on the list:
 11) fix attribute inputs with spaces
 12) add it so that if you chose to look at POW past day 64, it reads "untracked" as opposed to "0"
 
-2 hrs doing #1, 2, 3 and a tiny bit of general formatting  
-8.5
-
-before task 5:
+#### Hour 8.5
+Achieved tasks 1, 2, 3, and 4 + a tiny bit of general formatting
+1) Made it so that you can query an attribute in either `equip_loss` or `personnel_loss` tables
+2) Better error handling if a non valid attribute or day is entered
+3) Page loads with a "Please input values message"
+4) Added to the `equip_loss` table a row (day(1), (all other attributes)(0)) so people could query day 2 daily loss  
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/442892cd-9e5a-4ee7-be17-1314b7791d13)  
-after task 5:  
-1 hr 15 min for 1 working button  
-1 hr 30 min to find the two API's I needed to make any number of buttons work (.querySelectorAll and .currentTarget), learned that javascript is a target language  
-11.25 hrs, 4:30
+  
+#### Hour 9.75
+Created a working button, which when pressed, writes its name into the attribute input box  
+&nbsp;\
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/a7ac0562-6a7f-4dd3-823f-ab64a9d457ce)
+
+#### Hour 11.25
+Finally found the two API's I needed to make more than one button work (`.querySelectorAll` and `.currentTarget`) and consequently learned that javascript is a target language  
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/f2fdf86f-a416-4fa3-a1e2-327f9442545f)
-45 min of search around before finding flex boxes and then discovering my residual text indent error, finally finished task 5
+
+#### Hour 12
+Placed the two fieldsets next to each other instead of on top of each other (discovered and implemented flex boxes) and fixed residual text indent error. Finally finished task 5  
+5) Create a list of possible query options, maybe a click instead of type?  
+&nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/534aa016-8a02-4e78-aa0b-59172b95e8d5)
-12 hrs
+
+#### Hour 14
+Writing documentation
+3pm -
