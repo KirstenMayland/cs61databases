@@ -16,6 +16,8 @@ The dataset can also be found in the zip file, "archive.zip".
 
 #### Process
 1) Designed the database as detailed here: [DESIGN.md](DESIGN.md)
-2) Imported the data and implemented the database as detailed here: [IMPLEMENTATION.md](IMPLEMENTATION.md)
-3) Queried the database and analyzed the data as detailed here: [ANALYSIS.md](ANALYSIS.md)
-4) Built a frontend for the database as detailed here: [FRONTEND.md](FRONTEND.md)
+<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5861fcdd-1542-4485-826e-115bce9c84e5">
+
+3) Imported the data and implemented the database as detailed here: [IMPLEMENTATION.md](IMPLEMENTATION.md)
+4) Queried the database and analyzed the data as detailed here: [ANALYSIS.md](ANALYSIS.md)
+5) Built a frontend for the database as detailed here: [FRONTEND.md](FRONTEND.md)
