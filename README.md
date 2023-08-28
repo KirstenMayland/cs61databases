@@ -1,5 +1,5 @@
 ## Kirsten Mayland - Database Systems Final Project 
-##### CS61 Dartmouth, Prof. Goldstein 23x
+##### Dartmouth CS 61, Prof. Goldstein, Summer 2023
 
 ### Overview
 - [DESIGN.md](DESIGN.md)
@@ -11,7 +11,7 @@ The database I am using and analyzing is called "2022 Russia Ukraine War" on Kag
 
 For Download:  
 [Kraggle page for original csv's](https://www.kaggle.com/datasets/piterfm/2022-ukraine-russian-war?select=russia_losses_equipment_correction.csv)
-or [Modified and cleaned csv's](modified_csv_rus.zip)
+OR [Modified and Cleaned csv's](modified_csv_rus.zip)
 
 ### Installation/Setup Instructions
 
