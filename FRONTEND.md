@@ -1,4 +1,4 @@
-## Frontend
+## Front-End
 - [README.md](README.md)
 - [DESIGN.md](DESIGN.md)
 - [IMPLEMENTATION.md](IMPLEMENTATION.md)
