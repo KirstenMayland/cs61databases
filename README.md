@@ -17,4 +17,6 @@ or [Modified and cleaned csv's](modified_csv_rus.zip)
 
 
 ### Reflections
-This was a very fun foray into the world of databases and I gained a lot of knowledge in all aspects of the project, but I would say my greatest takeaway from the project was learning about how frontends and backends connect as that was always a point of confusion for me. For most of my career, I've worked in backend, so this opportunity to
+This was a very fun foray into the world of databases and I gained a lot of knowledge in all aspects of the project, but I would say my greatest takeaway from the project was learning about how frontends and backends connect, as that was always a point of confusion for me. For most of my career, I've worked in backend, so this opportunity to work with them in conjunction was a good step towards a compehensive understanding of how websites work, especially the relationship between PHP, XAMPP, HTML, and JavaScript.
+
+Going forward, I would love to try and implement this frontend onto an actual website instead of just the localhost, as that is still a point of confusion for me that I would like to remedy.
