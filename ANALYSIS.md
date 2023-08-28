@@ -1,5 +1,11 @@
 ## Analysis of Russian Losses Database
 
+#### Questions The Dataset Is Capable Of Answering
+1) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
+2) Does the amount of personal loss sustained vary with the seasons e.g. summer more losses than winter?
+3) Which day in the war so far has resulted in the greatest loss in Russian lives?
+4) Did the type of equipment taking the most losses change from the first month to this last month?
+
 The question I seek to answer in Milestone 3 is:  
 ###### Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
 
