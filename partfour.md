@@ -53,4 +53,4 @@ Things on the list:
 8) add option to query by date instead of day
 9) add over + about option if personnel is queried
 
-2 hrs doing #1, 2, 3
+2 hrs doing #1, 2, 3 and a tiny bit of general formatting
