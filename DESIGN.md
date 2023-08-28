@@ -38,7 +38,8 @@ excluded from tables once processing is done:
 ~~military auto (int) + fuel tank (int)~~   
 
 Photo of ERD:  
-<img width="356" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/228481bf-d34e-4135-abc5-35927b75fedf">
+<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7bf49ec0-fafa-41d2-b706-106d55f6c3b5">
+
 
 Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 
