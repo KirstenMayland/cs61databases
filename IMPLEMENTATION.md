@@ -39,10 +39,10 @@ rus_war_timeline table:
 <img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/e9054c2a-a529-469c-88b5-a96b5db602b2">  
 
 equip_loss table:   
-<img width="736" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/f923a836-c793-451b-aa00-1707648ed19e">  
+<img width="704" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/6ef5e0ad-d912-4e3a-a9a3-58af827d3469">
 
 personnel_loss table:  
-<img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/06a59d48-3d84-4e97-abf2-fae24faf2f56">  
+<img width="236" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/06019138-acb2-44c5-adff-bf5b03bf761e">
 
 vehicles_and_ft_analysis table:  
 <img width="295" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5d17eb9e-ecad-431e-8d1e-dedffe1411b5">  
