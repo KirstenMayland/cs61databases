@@ -12,18 +12,19 @@ To create a working frontend to the `russia_losses` database that allows you to 
 -  [GeeksForGeeks: Connecting Localserver Database and HTML/PHP](https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-display-on-html-table-using-php/#)
 - [Radu: Fix, 'Cannot Validate PHP VSCode'](https://radu.link/fix-cannot-validate-php-vs-code/)
 - [W3Schools: PHP MySQL select](https://www.w3schools.com/php/php_mysql_select.asp)
+- \+ numerous visits to [StackOverflow](https://stackoverflow.com/), [GeeksForGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/), and [Mozilla Developer](https://developer.mozilla.org/en-US/) for all variety of minor questions and errors pertaining to documentation and syntax
 
 ### Timeline of Process
-#### Hour 0
+###### (Note, hour details when the below text was completed, NOT started)
+#### Hour 0.75
 General researching into how to establish a frontend
 
-#### Hour 0.75
+#### Hour 3.5
 The original plan was to create a frontend on my already existing website (kirstenmayland.me); however, after nearly 3 hours of attempting to connect my database to my website and encountering countless errors, I gave up and decided to just host it on the localhost. I later learned that the cause of my errors was because my website is hosted by Github Pages and thus does not support PHP, which I was attempting to work with.    
 &nbsp;\
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d7dfb3b-693a-41bf-b7af-42956ac1783e)
-
-#### Hour 3.5
-After giving up on hosting the frontend on my website, I turned my efforts towards hosting it on the localhost instead, using XAMPP. Errors continued to abound  
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d7dfb3b-693a-41bf-b7af-42956ac1783e)  
+&nbsp;\
+After giving up on hosting the frontend on my website, I turned my efforts towards hosting it on the localhost instead, using XAMPP. Errors continue to abound  
 &nbsp;\
 One Example Error:  
 &nbsp;\
@@ -103,6 +104,5 @@ Placed the two fieldsets next to each other instead of on top of each other (dis
 &nbsp;\
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/534aa016-8a02-4e78-aa0b-59172b95e8d5)
 
-#### Hour 14
+#### Hour 15
 Writing documentation
-3pm -
