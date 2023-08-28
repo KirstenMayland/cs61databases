@@ -1,4 +1,10 @@
 ## Database Design
+
+#### ERD:  
+<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7bf49ec0-fafa-41d2-b706-106d55f6c3b5">
+
+Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
+
 #### Tables:
 | rus_war_timeline | datatype |
 | -----  | ----- |
@@ -36,12 +42,6 @@
 excluded from tables once processing is done:  
 ~~mobile SRBM system~~  
 ~~military auto (int) + fuel tank (int)~~   
-
-Photo of ERD:  
-<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7bf49ec0-fafa-41d2-b706-106d55f6c3b5">
-
-
-Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 
 #### Notes:
 - data is cumulative, so need to take the difference to see day to day changes
