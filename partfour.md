@@ -53,6 +53,8 @@ Things on the list:
 8) add option to query by date instead of day
 9) add over + about option if personnel is queried
 10) change password from one I actually use
+11) fix attribute inputs with spaces
+12) add it so that if you chose to look at POW past day 64, it reads "untracked" as opposed to "0"
 
 2 hrs doing #1, 2, 3 and a tiny bit of general formatting  
 8.5
@@ -62,4 +64,8 @@ before task 5:
 after task 5:  
 1 hr 15 min for 1 working button  
 1 hr 30 min to find the two API's I needed to make any number of buttons work (.querySelectorAll and .currentTarget), learned that javascript is a target language  
-4:30
+11.25 hrs, 4:30
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/f2fdf86f-a416-4fa3-a1e2-327f9442545f)
+45 min of search around before finding flex boxes and then discovering my residual text indent error, finally finished task 5
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/534aa016-8a02-4e78-aa0b-59172b95e8d5)
+12 hrs
