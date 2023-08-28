@@ -4,14 +4,15 @@
 - [IMPLEMENTATION.md](IMPLEMENTATION.md)
 - [ANALYSIS.md](ANALYSIS.md)
 - [FRONTEND.md](FRONTEND.md)
-#### Questions The Dataset Is Capable Of Answering
-1) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
-2) Does the amount of personal loss sustained vary with the seasons e.g. summer more losses than winter?
-3) Which day in the war so far has resulted in the greatest loss in Russian lives?
-4) Did the type of equipment taking the most losses change from the first month to this last month?
 
-### SQL Query
-The question I seek to answer in Milestone 3 is:  
+#### Questions The Dataset Is Capable Of Answering
+1) Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
+2) Which day in the war so far has resulted in the greatest loss in Russian lives?
+3) Did the type of equipment sustaining the most losses change from the first month to this last month?
+4) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
+
+
+### SQL Query #1
 ##### Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
 
 ```sql
@@ -31,23 +32,30 @@ ORDER BY avg_pd_loss_during_months DESC;
 
 ### Analysis
 According to the data, the months with the greatest average personnel lost per day goes as follows in decreasing order, ranging from 845 to 228 personnel lost per day:  
-###### -most-
-###### Feb (w)
-###### Jan (w)
-###### March (s)
-###### Nov (f)
-###### Dec (w)
-###### Jun (x)
-###### Nov (f)
-###### May (s)
-###### April (s)
-###### Sept (f)
-###### July (x)
-###### Aug (x)
-###### -least-
+##### --most-- Feb (w), Jan (w), March (s), Nov (f), Dec (w), Jun (x), Nov (f), May (s), April (s), Sept (f), July (x), Aug (x) --least--
 ^ (seasons determined according to the meterological calendar)  
 
 Therefore, to answer our question above, there exists a trend where more personnel are lost during the winter months (and months closest to the winter) as opposed to the summer months (and months closest to the summer). More analysis would be needed in the future to determine whether this finding is statistically significant, but as now, the trend is strong enough to be immediately apparent.
 
-### Result
-Yes, the amount of Russian personnel losses appears to vary with the season, with more losses being concentrated in the winter as opposed to the summer.
+*Yes, the amount of Russian personnel losses appears to vary with the season, with more losses being concentrated in the winter as opposed to the summer.*
+
+### SQL Query #2
+##### Which day in the war so far has resulted in the greatest loss in Russian lives?
+```sql
+```
+### Results
+### Analysis
+
+### SQL Query #3
+##### Did the type of equipment sustaining the most losses change from the first month to this last month?
+```sql
+```
+### Results
+### Analysis
+
+### SQL Query #4
+##### Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
+```sql
+```
+### Results
+### Analysis
