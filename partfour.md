@@ -52,5 +52,10 @@ Things on the list:
 7) better format the output
 8) add option to query by date instead of day
 9) add over + about option if personnel is queried
+10) change password from one I actually use
 
 2 hrs doing #1, 2, 3 and a tiny bit of general formatting
+
+before task 5:
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/442892cd-9e5a-4ee7-be17-1314b7791d13)  
+after task 5:
