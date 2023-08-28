@@ -1,6 +1,11 @@
-## Kirsten Mayland, CS 61 Dartmouth - Database Systems, Prof. Goldstein
-Final Project
+## Kirsten Mayland - Database Systems Final Project 
+##### CS61 Dartmouth, Prof. Goldstein 23x
+
 ### Overview
+- [DESIGN.md](DESIGN.md)
+- [IMPLEMENTATION.md](IMPLEMENTATION.md)
+- [ANALYSIS.md](ANALYSIS.md)
+- [FRONTEND.md](FRONTEND.md)
 #### Dataset
 The database I am using and analyzing is called "2022 Russia Ukraine War" on Kaggle and is a weekly updated dataset of real Russian war losses (personal and equipment) during the ongoing Russian-Ukrainian war as best as is able to be compiled. The data was downloaded 7/30/2023
 
@@ -9,17 +14,6 @@ For Download:
 or [Modified and cleaned csv's](modified_csv_rus.zip)
 
 ### Installation/Setup Instructions
-
-### Approach and Process
-1) Designed the database as detailed here: [DESIGN.md](DESIGN.md)
-<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5861fcdd-1542-4485-826e-115bce9c84e5">
-
-2) Imported the data and implemented the database as detailed here: [IMPLEMENTATION.md](IMPLEMENTATION.md)
-<img width="704" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/67e2fecf-d4b3-4377-9a52-3271f945b56b">
-
-3) Queried the database and analyzed the data as detailed here: [ANALYSIS.md](ANALYSIS.md)
-4) Built a frontend for the database as detailed here: [FRONTEND.md](FRONTEND.md)
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/4d14f2f4-a9c2-478e-a458-6bf211927d4d)
 
 
 ### Reflections
