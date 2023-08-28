@@ -52,7 +52,7 @@ vehicles_and_ft_analysis table:
 <img width="295" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5d17eb9e-ecad-431e-8d1e-dedffe1411b5">  
 
 ### SQL code
-The code used to implement the above database is in [rus_database_setup.sql](rus_database_setup.sql) or dilineated down below.
+The code used to implement the above database is in [rus_database_setup.sql](rus_database_setup.sql) or dilineated below.
 ```sql
 CREATE SCHEMA `russia_losses` ;
 
