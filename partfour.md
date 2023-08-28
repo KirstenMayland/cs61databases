@@ -34,3 +34,7 @@ Thoughts-
 5.5 hrs in, first successful query, that took too long, I know we did some of this as a classlab, but understanding XAMPP and VSCode was a much bigger hurdle than anticipated
 
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/99faf8e8-107f-471c-a20c-ea6df456b4b8)
+
+6 hrs in, got cumulative loss query to work:
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/9177a0a6-ca07-4d98-9bd3-1a52ae74a7bc)
+
