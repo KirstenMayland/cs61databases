@@ -54,8 +54,12 @@ Things on the list:
 9) add over + about option if personnel is queried
 10) change password from one I actually use
 
-2 hrs doing #1, 2, 3 and a tiny bit of general formatting
+2 hrs doing #1, 2, 3 and a tiny bit of general formatting  
+8.5
 
 before task 5:
 ![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/442892cd-9e5a-4ee7-be17-1314b7791d13)  
-after task 5:
+after task 5:  
+1 hr 15 min for 1 working button  
+1 hr 30 min to find the two API's I needed to make any number of buttons work (.querySelectorAll and .currentTarget), learned that javascript is a target language  
+4:30
