@@ -1,5 +1,9 @@
 ## Analysis of Russian Losses Database
-
+- [README.md](README.md)
+- [DESIGN.md](DESIGN.md)
+- [IMPLEMENTATION.md](IMPLEMENTATION.md)
+- [ANALYSIS.md](ANALYSIS.md)
+- [FRONTEND.md](FRONTEND.md)
 #### Questions The Dataset Is Capable Of Answering
 1) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
 2) Does the amount of personal loss sustained vary with the seasons e.g. summer more losses than winter?
