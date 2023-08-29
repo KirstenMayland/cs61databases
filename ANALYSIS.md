@@ -7,8 +7,8 @@
 
 #### Questions The Dataset Is Capable Of Answering
 1) Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
-2) Which day in the war so far has resulted in the greatest loss in Russian lives?
-3) Did the type of equipment sustaining the most losses change from the first month to this last month?
+2) Which dates have resulted in the top 10 greatest loss in Russian personnel lives in the war thus far?
+3) What areas have seen the heaviest losses?
 4) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
 
 
@@ -40,14 +40,24 @@ Therefore, to answer our question above, there exists a trend where more personn
 *Yes, the amount of Russian personnel losses appears to vary with the season, with more losses being concentrated in the winter as opposed to the summer.*
 
 ### SQL Query #2
-##### Which day in the war so far has resulted in the greatest loss in Russian lives?
+##### Which dates have resulted in the top 10 greatest loss in Russian personnel lives in the war thus far?
 ```sql
+SELECT rwt.date, pl.personnel - LAG(pl.personnel) OVER (ORDER BY pl.day) AS per_day_loss
+FROM personnel_loss pl
+JOIN rus_war_timeline rwt
+ON pl.day = rwt.day
+ORDER BY per_day_loss DESC
+LIMIT 10;
 ```
 ### Results
+<img width="133" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/6ce372c8-faee-49d7-8b29-f8f045867562">
+
 ### Analysis
+All in feb or march which corroborates query 1
+ I searched further and the 13th most was June and the first non Feb/Mar
 
 ### SQL Query #3
-##### Did the type of equipment sustaining the most losses change from the first month to this last month?
+##### What areas have seen the heaviest losses?
 ```sql
 ```
 ### Results
