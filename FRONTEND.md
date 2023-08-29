@@ -77,7 +77,7 @@ Goals on the list:
 9) add over + about option if personnel is queried
 10) change password from one I actually use
 11) fix attribute inputs with spaces
-12) add it so that if you chose to look at POW past day 64, it reads "untracked" as opposed to "0"
+12) add it so that if you chose to look at POW or cruise past day 64, it reads "untracked" as opposed to "0"
 
 #### Hour 8.5
 Achieved tasks 1, 2, 3, and 4 + a tiny bit of general formatting
