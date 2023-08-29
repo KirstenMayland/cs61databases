@@ -16,8 +16,8 @@ OR [Modified and Cleaned csv's](modified_csv_rus.zip)
 ### Installation/Setup Instructions
 1) Download the modified and cleaned [csv](modified_csv_rus.zip)'s above
 2) Import the csv's into a DBMS (eg. MySQL Workbench's Table Data Import Wizard)
-3) Run the sql [setup code](rus_database_setup.sql) on the database to properly format and normalize the data
-For frontend:
+3) Run the sql [setup code](rus_database_setup.sql) on the database to properly format and normalize the data  
+For frontend:  
 4) Download site's code ([index.php](index.php) and [style.css](style.css))
 5) Use a webserver (eg. XAMPP) to host the site code and connect to the locally stored database
 
