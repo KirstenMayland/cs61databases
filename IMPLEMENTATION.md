@@ -28,6 +28,7 @@ Created the schema `russia_losses` in my local MySQL instance and then imported 
 8) Deleted rows in `vehicles_and_ft_analysis` table where `greatest losses direction` IS NULL bc redundant
 9) Deleted `date` attribute from `equip_loss` and `personnel_loss` tables because redundant
 10) Deleted `greatest losses direction` attribute from `equip_loss` because redundant
+11) Normalized `greatest losses direction` in `vehicles_and_ft_analysis` by splitting apart strings
 
 ###### Connected Tables
 11) Add primary and foreign keys to all tables, connecting them
@@ -128,6 +129,7 @@ ALTER TABLE equip_loss
 ADD CONSTRAINT PK_equip_loss PRIMARY KEY (day);
 ALTER TABLE personnel_loss
 ADD CONSTRAINT PK_personnel_loss PRIMARY KEY (day);
+ALTER TABLE vehicles_and_ft_analysis MODIFY `greatest losses direction` VARCHAR(200);
 ALTER TABLE vehicles_and_ft_analysis
 ADD CONSTRAINT PK_vehicles_and_ft_analysis PRIMARY KEY (day, `greatest losses direction`);
 
