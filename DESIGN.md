@@ -5,7 +5,7 @@
 - [ANALYSIS.md](ANALYSIS.md)
 - [FRONTEND.md](FRONTEND.md)
 #### ERD:  
-<img width="468" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7bf49ec0-fafa-41d2-b706-106d55f6c3b5">
+<img width="470" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/f7ab0d90-53c9-4ba9-bcfc-da0ef537f333">
 
 Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 
@@ -13,7 +13,7 @@ Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 | rus_war_timeline | datatype |
 | -----  | ----- |
 | day     | int, PK |
-| date    | datetime |
+| date    | text |
 
 | equip_loss | datatype |
 | :-----:  | :-----: |
@@ -34,7 +34,7 @@ Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 | v_and_ft_analysis | datatype |
 | :-----: | :-----: |
 |day   | int, PK/FK |
-|greatest losses loc | text |
+|greatest losses loc | VARCHAR(200) PK |
 
 | personel_loss  | datatype|
 | :-----: | :-----: |
