@@ -38,7 +38,7 @@ In summary, most of the work was focused up applying the corrections to the equi
 
 ### End product
 Photo of ERD, reverse engineered from database:   
-<img width="529" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/93ebb752-a9fe-4a71-b680-aa3fd96755b0">  
+<img width="470" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/8e9cb137-d443-4716-8ddb-d05ca19bd79d">
 
 rus_war_timeline table:  
 <img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/e9054c2a-a529-469c-88b5-a96b5db602b2">  
@@ -50,7 +50,8 @@ personnel_loss table:
 <img width="236" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/06019138-acb2-44c5-adff-bf5b03bf761e">
 
 vehicles_and_ft_analysis table:  
-<img width="295" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5d17eb9e-ecad-431e-8d1e-dedffe1411b5">  
+<img width="248" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/086586bf-d66e-45c4-a56b-0309fe6ea05b">
+
 
 ### SQL code
 The code used to implement the above database is in [rus_database_setup.sql](rus_database_setup.sql) or dilineated below.
