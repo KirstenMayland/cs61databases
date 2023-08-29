@@ -6,8 +6,24 @@
 - [FRONTEND.md](FRONTEND.md)
 ### Goal
 To create a working frontend to the `russia_losses` database that allows you to query it from the web, or at least the localhost, and to learn more about servers and frontend-backend interaction in the process
+
 ### Final Result
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/b3bc8cc7-e2d0-46fc-a111-99ba4f52d5b8)
+When you open the page you are met with this screen, where you are prompted to input a day and loss type.  If you do not want to input a loss type yourself, you can click one of the buttons which will write the value written on the button onto the 'Loss Type: ' submission box (i.e. click 'drone' and "drone" will be written)  
+&nbsp;\
+<img width="960" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/ff3aa2eb-b4e5-4dc3-ac6f-1663bb89ddd1">
+
+  
+&nbsp;\
+Some features are:
+- in order to submit, one can either click the 'submit' button or click 'enter'
+- clicking on the word "Database" in the upper right will refresh the page
+- <img width="171" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/89288dd2-c99d-498b-8c9a-c390a6dce6fc">
+- if you input a day that is out of range or a loss type that is not in either the `equip_loss` or `personnel_loss` tables, you get this response
+- <img width="228" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/705d3a7a-f17d-45e6-9cc1-199f99aa9408">
+- a correct prompt results in response of this type (eg. if day=197 and loss type=helicopter was inputted)
+- <img width="418" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/2512108f-736f-4f58-aec6-86a809f782f2">
+
+
 
 
 ### Resources Used
