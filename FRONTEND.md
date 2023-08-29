@@ -106,3 +106,9 @@ Placed the two fieldsets next to each other instead of on top of each other (dis
 
 #### Hour 15
 Writing documentation
+
+#### Hour 17
+Queries
+
+#### Hour 18.5
+Realizing that a `vehicles_and_ft_analysis` was not fully normalized and fixing that
