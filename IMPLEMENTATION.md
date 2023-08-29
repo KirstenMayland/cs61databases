@@ -129,7 +129,7 @@ ADD CONSTRAINT PK_equip_loss PRIMARY KEY (day);
 ALTER TABLE personnel_loss
 ADD CONSTRAINT PK_personnel_loss PRIMARY KEY (day);
 ALTER TABLE vehicles_and_ft_analysis
-ADD CONSTRAINT PK_vehicles_and_ft_analysis PRIMARY KEY (day);
+ADD CONSTRAINT PK_vehicles_and_ft_analysis PRIMARY KEY (day, `greatest losses direction`);
 
 -- established foreign keys
 ALTER TABLE equip_loss
