@@ -110,5 +110,5 @@ Writing documentation
 #### Hour 17
 Queries
 
-#### Hour 18.5
-Realizing that a `vehicles_and_ft_analysis` was not fully normalized and fixing that
+#### Hour 19
+Realized while working on the queries that a `vehicles_and_ft_analysis` was not fully normalized, so fixed that and updated [DESIGN.md](DESIGN.md) and [IMPLEMENTATION.md](IMPLEMENTATION.md) pages to match
