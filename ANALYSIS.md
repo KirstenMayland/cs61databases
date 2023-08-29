@@ -1,4 +1,4 @@
-## Analysis of `russia_losses` Database
+## Analysis of 'russia_losses' Database
 - [README.md](README.md)
 - [DESIGN.md](DESIGN.md)
 - [IMPLEMENTATION.md](IMPLEMENTATION.md)
