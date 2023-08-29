@@ -7,10 +7,8 @@
 
 #### Questions The Dataset Is Capable Of Answering
 1) Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
-2) Which dates have resulted in the top 10 greatest loss in Russian personnel lives in the war thus far?
-3) What areas have seen the heaviest losses?
-4) Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
-
+2) Which dates have resulted in the top 10 greatest losses in Russian armored personal carriers (APC) in the war thus far?
+3) What areas have seen the heaviest losses of vehicles and fuel tanks?
 
 ### SQL Query #1
 ##### Does the amount of personal loss sustained by Russia vary with the seasons e.g. summer more losses than winter?
@@ -40,32 +38,33 @@ Therefore, to answer our question above, there exists a trend where more personn
 *Yes, the amount of Russian personnel losses appears to vary with the season, with more losses being concentrated in the winter as opposed to the summer.*
 
 ### SQL Query #2
-##### Which dates have resulted in the top 10 greatest loss in Russian personnel lives in the war thus far?
+##### Which dates have resulted in the top 10 greatest losses in Russian armored personal carriers (APC) in the war thus far?
 ```sql
-SELECT rwt.date, pl.personnel - LAG(pl.personnel) OVER (ORDER BY pl.day) AS per_day_loss
-FROM personnel_loss pl
+SELECT rwt.date, e.APC - LAG(e.APC) OVER (ORDER BY e.day) AS per_day_loss
+FROM equip_loss e
 JOIN rus_war_timeline rwt
-ON pl.day = rwt.day
+ON e.day = rwt.day
 ORDER BY per_day_loss DESC
 LIMIT 10;
 ```
 ### Results
-<img width="133" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/6ce372c8-faee-49d7-8b29-f8f045867562">
+<img width="142" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7997e350-f5b1-4a9f-9886-cc363e7bfa10">
 
 ### Analysis
-All in feb or march which corroborates query 1
- I searched further and the 13th most was June and the first non Feb/Mar
+The first thing that jumps out is that all the dates are all in 2022, primarily in the first 1-2 months of the war. More data would be needed to fully understand what this means, but a possible theory is that fighting styles changed as the war went on, so in the later months, Armoured Personal Carriers were in less intense fighting zone. Another factor to note is that, 2/25/2023, the top result, is the second day of the war and the first day for which data was collected, so the high value has the potential to be a combination between days 1 and 2.
 
 ### SQL Query #3
-##### What areas have seen the heaviest losses?
+##### What areas have seen the heaviest losses of vehicles and fuel tanks?
 ```sql
+SELECT `greatest losses direction`, COUNT(`greatest losses direction`) AS amount
+FROM vehicles_and_ft_analysis
+GROUP BY `greatest losses direction`
+ORDER BY amount DESC;
 ```
 ### Results
-### Analysis
+<img width="169" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/1b6d54bf-f3f4-4bc1-9a21-fd830de09f13">
 
-### SQL Query #4
-##### Is there a correlation between POW's taken and losses of aircrafts, helicopters, or tanks?
-```sql
-```
-### Results
 ### Analysis
+*Note:* This may seem like a simple query, but in order to do it, it was preceded by two hours of normalizing and formating the table and actually took longer than any other query on this page  
+\
+Not exactly a surprising result that Bakhmut and Donetsk are revealed to be centers of vehicle and fuel tank loss as they have the areas that have been most heavily in the news.
