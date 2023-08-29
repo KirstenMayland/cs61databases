@@ -7,6 +7,8 @@
 ### Goal
 To create a working frontend to the `russia_losses` database that allows you to query it from the web, or at least the localhost, and to learn more about servers and frontend-backend interaction in the process
 ### Final Result
+![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/b3bc8cc7-e2d0-46fc-a111-99ba4f52d5b8)
+
 
 ### Resources Used
 -  [GeeksForGeeks: Connecting Localserver Database and HTML/PHP](https://www.geeksforgeeks.org/how-to-fetch-data-from-localserver-database-and-display-on-html-table-using-php/#)
