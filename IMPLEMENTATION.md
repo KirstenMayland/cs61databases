@@ -138,5 +138,11 @@ ALTER TABLE personnel_loss
 ADD CONSTRAINT FK_personnel_loss FOREIGN KEY (day) REFERENCES rus_war_timeline (day);
 ALTER TABLE vehicles_and_ft_analysis
 ADD CONSTRAINT FK_vehicles_and_ft_analysis FOREIGN KEY (day) REFERENCES rus_war_timeline (day);
+
+-- add day 1 values so that day 2 per day losses could be calculated
+INSERT INTO equip_loss (day, aircraft, helicopter, tank, APC, `field artillery`, MRL, 
+drone, `naval ship`, `anti-aircraft warfare`, `special equipment`, `vehicles and fuel tanks`, `cruise missiles`) VALUES 
+(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO personnel_loss (day, personnel, personnel_about, POW) VALUES (1, 0, "about", 0);
 ```
 
