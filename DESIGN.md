@@ -5,7 +5,7 @@
 - [ANALYSIS.md](ANALYSIS.md)
 - [FRONTEND.md](FRONTEND.md)
 #### ERD:  
-<img width="470" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/f7ab0d90-53c9-4ba9-bcfc-da0ef537f333">
+<img width="470" alt="Screenshot 2023-08-28 233903" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/817dec05-7f64-4aae-bb88-0dffdb89a53f">
 
 Download ERD:  [Russia_losses_model.mwb](Russia_losses_model.mwb)
 
