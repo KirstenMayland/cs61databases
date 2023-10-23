@@ -10,18 +10,19 @@ To create a working frontend to the `russia_losses` database that allows you to 
 ### Final Result
 When you open the page you are met with this screen, where you are prompted to input a day and loss type.  If you do not want to input a loss type yourself, you can click one of the buttons which will write the value written on the button onto the 'Loss Type: ' submission box (i.e. click 'drone' and "drone" will be written)  
 &nbsp;\
-<img width="960" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/ff3aa2eb-b4e5-4dc3-ac6f-1663bb89ddd1">
+<img width="960" alt="Screenshot 2023-08-29 015005" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/f1327783-a756-4b02-b5bb-649593163145">
 
   
 &nbsp;\
 Some features are:
 - in order to submit, one can either click the 'submit' button or click 'enter'
 - clicking on the word "Database" in the upper right will refresh the page
-- <img width="171" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/89288dd2-c99d-498b-8c9a-c390a6dce6fc">
+- <img width="171" alt="Screenshot 2023-08-29 013010" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/430608e2-97bc-4845-8a0e-c47028c84ea1">
 - if you input a day that is out of range or a loss type that is not in either the `equip_loss` or `personnel_loss` tables, you get this response
-- <img width="228" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/705d3a7a-f17d-45e6-9cc1-199f99aa9408">
+- <img width="228" alt="Screenshot 2023-08-29 014757" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/fff2b0af-b26c-4666-8909-c3603fcc0ff7">
 - a correct prompt results in response of this type (eg. if day=197 and loss type=helicopter was inputted)
-- <img width="418" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/2512108f-736f-4f58-aec6-86a809f782f2">
+- <img width="418" alt="Screenshot 2023-08-29 013838" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/fa3e9508-2f93-4c95-b04a-6a67ce04e452">
+
 
 
 
@@ -46,7 +47,7 @@ After giving up on hosting the frontend on my website, I turned my efforts towar
 &nbsp;\
 One Example Error:  
 &nbsp;\
-![Screenshot (34)](https://github.com/KirstenMayland/cs61databases/assets/102620915/ed4e3faa-262b-42b8-9f0d-4e75e10c67cf)  
+![Screenshot (34)](https://github.com/KirstenMayland/cs61databases/assets/102620915/28f61883-cf22-4dc7-9c4f-83c9c6df12f5)
 &nbsp;\
 Second Example Error:  
 &nbsp;\
@@ -60,7 +61,7 @@ Finally got XAMPP webserver set up and running
 #### Hour 5
 Got the PHP to work, or at least connect, to the localhost  
 &nbsp;\
-![Screenshot (40)](https://github.com/KirstenMayland/cs61databases/assets/102620915/b0bf0c60-2b09-4e43-9f7d-7fa9b5409001)  
+![Screenshot (40)](https://github.com/KirstenMayland/cs61databases/assets/102620915/0889ce86-18bd-4503-876c-45981e489ab9)
 &nbsp;\
 Now that I have gotten the local host into a place where I can access my database I can actually plan what I'm trying to do:  
 
@@ -70,7 +71,7 @@ Thoughts-
 #### Hour 5.5
 First successful query! That took much longer than anticipated, I know we did this rough idea as a classlab, but understanding how XAMPP and VSCode work together was a much bigger hurdle than anticipated.  
 &nbsp;\
-![Screenshot (45)](https://github.com/KirstenMayland/cs61databases/assets/102620915/70665f89-a221-49e1-bccb-ed42a2e11094)
+![Screenshot (45)](https://github.com/KirstenMayland/cs61databases/assets/102620915/c7d5dcd1-0671-4ea3-a879-0d48eb3fefa6)
 
 #### Hour 6
 Got cumulative loss query to work:  
@@ -109,18 +110,18 @@ Achieved tasks 1, 2, 3, and 4 + a tiny bit of general formatting
 #### Hour 9.75
 Created a working button, which when pressed, writes its name into the attribute input box  
 &nbsp;\
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/a7ac0562-6a7f-4dd3-823f-ab64a9d457ce)
+![Screenshot (53)](https://github.com/KirstenMayland/cs61databases/assets/102620915/02110dd1-a917-404a-a863-0bdf9aaf59b7)
 
 #### Hour 11.25
 Finally found the two API's I needed to make more than one button work (`.querySelectorAll` and `.currentTarget`) and consequently learned that javascript is a target language  
 &nbsp;\
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/f2fdf86f-a416-4fa3-a1e2-327f9442545f)
+![Screenshot (50)](https://github.com/KirstenMayland/cs61databases/assets/102620915/9712bc76-282e-4195-b347-017509ccdd84)
 
 #### Hour 12
 Placed the two fieldsets next to each other instead of on top of each other (discovered and implemented flex boxes) and fixed residual text indent error. Finally finished task 5  
 5) Create a list of possible query options, maybe a click instead of type?  
 &nbsp;\
-![image](https://github.com/KirstenMayland/cs61databases/assets/102620915/534aa016-8a02-4e78-aa0b-59172b95e8d5)
+<img width="960" alt="Screenshot 2023-08-29 015005" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/831448a2-ba3d-4772-b7ac-24be18ba705d">
 
 #### Hour 15
 Writing documentation
