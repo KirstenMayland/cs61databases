@@ -28,6 +28,4 @@ Going forward, I would love to try and implement this frontend onto an actual we
 
 
 ### [Front-End](FRONTEND.md):
-
-<img width="960" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/ff3aa2eb-b4e5-4dc3-ac6f-1663bb89ddd1">
-
+<img width="960" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/a036b30c-09f5-4a66-a904-e984e3fa0e0c">
