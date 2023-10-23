@@ -26,7 +26,7 @@ GROUP BY n.month
 ORDER BY avg_pd_loss_during_months DESC;
 ```
 ### Result
-<img width="181" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/95c5c854-bda5-4cdf-93c7-14a96dd38bec">  
+<img width="181" alt="Screenshot 2023-08-15 104229" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/68777bc8-0b7e-45e3-8609-5245150fbae4">
 
 ### Analysis
 According to the data, the months with the greatest average personnel lost per day goes as follows in decreasing order, ranging from 845 to 228 personnel lost per day:  
@@ -48,7 +48,7 @@ ORDER BY per_day_loss DESC
 LIMIT 10;
 ```
 ### Results
-<img width="142" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/7997e350-f5b1-4a9f-9886-cc363e7bfa10">
+<img width="142" alt="Screenshot 2023-08-29 023050" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/b3f6c12e-3d8a-4720-b11b-c1a8af79625a">
 
 ### Analysis
 The first thing that jumps out is that all the dates are all in 2022, primarily in the first 1-2 months of the war. More data would be needed to fully understand what this means, but a possible theory is that fighting styles changed as the war went on, so in the later months, Armoured Personal Carriers were in less intense fighting zone. Another factor to note is that, 2/25/2023, the top result, is the second day of the war and the first day for which data was collected, so the high value has the potential to be a combination between days 1 and 2.
@@ -62,7 +62,7 @@ GROUP BY `greatest losses direction`
 ORDER BY amount DESC;
 ```
 ### Results
-<img width="169" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/1b6d54bf-f3f4-4bc1-9a21-fd830de09f13">
+<img width="169" alt="Screenshot 2023-08-29 024804" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/13893dec-48f5-4ab9-95bb-93474dc9cc6b">
 
 ### Analysis
 *Note:* This may seem like a simple query, but in order to do it, it was preceded by two hours of normalizing and formating the table and actually took longer than any other query on this page  
