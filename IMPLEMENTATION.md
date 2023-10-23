@@ -38,19 +38,19 @@ In summary, most of the work was focused up applying the corrections to the equi
 
 ### End product
 Photo of ERD, reverse engineered from database:   
-<img width="470" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/8e9cb137-d443-4716-8ddb-d05ca19bd79d">
+<img width="470" alt="Screenshot 2023-08-28 233903" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/4be67a14-3b30-455f-863b-bad71f5d0165">
 
 rus_war_timeline table:  
-<img width="285" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/e9054c2a-a529-469c-88b5-a96b5db602b2">  
+<img width="285" alt="Screenshot 2023-08-14 235829" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/2e7915e7-83e8-4c2d-9fe4-425eefbb7122">
 
 equip_loss table:   
-<img width="704" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/6ef5e0ad-d912-4e3a-a9a3-58af827d3469">
+<img width="704" alt="Screenshot 2023-08-28 151044" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/ca2094cd-a0ab-4d52-8959-8f9112080052">
 
 personnel_loss table:  
-<img width="236" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/06019138-acb2-44c5-adff-bf5b03bf761e">
+<img width="236" alt="Screenshot 2023-08-28 151011" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/5282a565-d488-4ca9-8600-120643a23336">
 
 vehicles_and_ft_analysis table:  
-<img width="248" alt="image" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/086586bf-d66e-45c4-a56b-0309fe6ea05b">
+<img width="248" alt="Screenshot 2023-08-28 234217" src="https://github.com/KirstenMayland/cs61databases/assets/102620915/068fe0fe-0b77-46fd-8eeb-12b393b279ba">
 
 
 ### SQL code
